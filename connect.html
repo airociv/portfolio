@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="header">
+            <a href="./home.html" class="home">Home</a>
+            <a href="./about.html" class="about">About</a>
+            <a href="./projects.html" class="projects">Projects</a>
+            <a href="./portfolio.html" class="portfolio">Portflio</a>
+            <a href="./connect.html" class="connect">Connect</a>
+        </div>
+        <div class="containers">
+            <div class="left-container"></div>
+            <div class="right-container">
+              <div class="story">
+                <h2>Looking to Connect?</h2>
+                <br>
+                    <h3>Email: vdeng@u.northwestern.edu</h3>
+
+                    <h3>Phone: (913)7874205</h3>
+                <br>
+                    <h3>Or direct your questions here:</h3>
+                    <br>
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+        <input type="checkbox" id="newsletter" name="newsletter" value="newslettersignup">
+  <label for="newsletter">Join our newsletter</label><br>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        </div>
+        
+    </div>
+        </div>
+              </div>
+            </div>
+          </div>
+          <script src="about.js"></script>
+        </body>
+      </html>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+        <script src="about.js"></script>
+    </body>
+</html>
